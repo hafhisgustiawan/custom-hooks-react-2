@@ -22,6 +22,7 @@ const NewTask = (props) => {
         body: { text: taskText },
       },
       applyData.bind(null, taskText)
+      // pre-configure function, bind(params...), di parameter pertama itu akan bisa dipanggil pakai this dan param kedua itu akan jadi param pertama pada fn aslinya
     );
   };
 
